@@ -6,7 +6,14 @@ import Layout1Image from "../../img/layout1.png";
 
 const CropImage = () => {
   const [src, setSrc] = useState(null);
-  const [crop, setCrop] = useState({ aspect: 1 / 1 });
+  const [crop, setCrop] = useState({
+    aspect: 10 / 10,
+    unit: "%",
+    x: 0,
+    y: 0,
+    width: 50,
+    height: 50,
+  });
   const [image, setImage] = useState(null);
   const [showModal, setShowModal] = useState(false);
 
