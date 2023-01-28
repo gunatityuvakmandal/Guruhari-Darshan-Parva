@@ -2,7 +2,6 @@
   "name": "guruhari-darshan-parva",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html --public-url .",
@@ -20,6 +19,7 @@
   },
   "homepage": "https://github.com/rajchandvaniya/Guruhari-Darshan-Parva#readme",
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "parcel": "^2.8.3",
     "postcss": "^8.4.21",
     "process": "^0.11.10",
