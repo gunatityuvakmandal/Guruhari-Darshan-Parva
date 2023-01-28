@@ -16,14 +16,15 @@ function Header() {
             Prabodhswamiji
           </p>
           <br />
-          <p className="font-bold">
-            Mahaprasadam: 6 PM to 7.30 PM | Sabha: 7.30 PM to 10 PM
-          </p>
+          <p className="font-bold text-xl">Friday, 3rd Feb 2023</p>
+          <p className="font-bold text-lg">Mahaprasadam: 6 PM to 7.30 PM</p>
+          <p className="font-bold text-lg">Sabha: 7.30 PM to 10 PM</p>
+          <br></br>
           <p>
             Laxminarayan Prasad Lawn, Shubhash Road, Opp Mahila Sangh School,
             Vile Parle East
           </p>
-          <p className="flex justify-center">
+          <p className="flex justify-center mb-2 text-lg">
             <a
               href="https://goo.gl/maps/bpqcJDnbsX7ASTMy9"
               className="text-blue-800 mt-5 font-bold"
